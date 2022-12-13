@@ -1,1 +1,5 @@
-testprogram.exe
+*.exe
+*.wasm
+app/*.wasm
+builder/*.wasm
+builder/*.exe
