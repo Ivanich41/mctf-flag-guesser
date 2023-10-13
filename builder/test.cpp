@@ -20,7 +20,10 @@ void banner(){
 int main(){
     banner();
     bool flag = true;
-    int numgalf[20] = {109, 99, 116, 102, 123, 119, 64, 115, 109, 95, 97, 100, 118, 51, 110, 116, 117, 114, 51, 125};
+    int numgalf[20] = {44, 34, 53, 39, 58, 54, 1, 50, 44, 30, 32, 37, 55, 114, 47, 53, 52, 51, 114, 60};
+    for (int i = 0; i < 20; ++i) {
+    numgalf[i] ^= 65;
+    }
     char input[20];
     string raw_input;
     while(flag){
